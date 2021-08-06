@@ -1,0 +1,17 @@
+---カスタムHTMLブロック---
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3240.332798729691!2d139.7333802!3d35.6934272!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c5e412329bb%3A0x7db38e6732953dc!2z44CSMTYyLTA4NDYg5p2x5Lqs6YO95paw5a6_5Yy65biC6LC35bem5YaF55S677yS77yR4oiS77yR77yT!5e0!3m2!1sja!2sjp!4v1566456578905!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0" allowfullscreen="" class="googlemap"></iframe>
+
+
+---表ブロック---
+所在地
+東京都新宿区市谷左内町21-13
+
+電話番号
+03-1234-5678
+
+営業時間
+17:00～翌2:00(L.O.翌1:00)
+
+定休日
+日曜日
+営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。

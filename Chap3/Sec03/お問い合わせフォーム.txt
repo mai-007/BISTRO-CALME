@@ -1,0 +1,81 @@
+------MW WP Form 入力欄------
+
+<div class="form">
+    <div class="form_row">
+        <label class="form_label" for="fullname">お名前<span>必須</span></label>
+        <div class="form_content">
+            [mwform_text name="fullname" id="fullname"]
+        </div>
+    </div>
+
+    <div class="form_row">
+        <label class="form_label" for="email">メールアドレス<span>必須</span></label>
+        <div class="form_content">
+            [mwform_email name="email" id="email"]
+        </div>
+    </div>
+
+    <div class="form_row">
+        <label class="form_label" for="message">メッセージ</label>
+        <div class="form_content">
+            [mwform_textarea name="message" id="message"]
+        </div>
+    </div>
+
+    <div class="form_row form_row-center">
+        [mwform_submitButton name="send" class="btn btn-send" confirm_value="確認画面へ" submit_value="送信する"]
+    </div>
+
+    <div class="form_row form_row-center">
+        [mwform_backButton class="btn btn-back" value="戻る"]
+    </div>
+</div>
+
+
+------自動返信メール設定------
+
+-件名-
+お問い合わせありがとうございました。
+
+-送信者-
+BISTRO CALME
+
+-Reply-to（メールアドレス）-
+info@example.com
+※任意に変更してください。
+
+-本文-
+お問い合わせありがとうございました。次の内容で承りました。
+後日、ご連絡させていただきます。
+
+■送信内容
+お名前 : {fullname}
+メールアドレス : {email}
+メッセージ : {message}
+
+-自動返信メール-
+email
+
+
+------管理者宛メール設定------
+-送信先（E-mailアドレス）-
+info@example.com
+※任意に変更してください。
+
+
+-件名-
+お問い合わせがありました。
+
+-送信者-
+BISTRO CALME
+
+-Reply-to（メールアドレス）-
+info@example.com
+
+-本文-
+お問い合わせが、次の内容でありました。
+
+■送信内容
+お名前 : {fullname}
+メールアドレス : {email}
+メッセージ : {message}
